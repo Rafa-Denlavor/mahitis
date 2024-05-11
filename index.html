@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mahitis: Um bot de combate à desinformação que utiliza inteligência artificial para identificar e combater a proliferação de notícias falsas e conteúdo enganoso online."
+    />
+    <meta
+      name="keywords"
+      content="Combate à desinformação, notícias falsas, inteligência artificial, verificação de informações"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="24x24"
+      href="./assets/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icon/site.webmanifest" />
+    <title>Mahitis - O Bot de Combate à Desinformação</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./assets/images/logo.png" alt="" />
+      <h1>Mahitis</h1>
+    </header>
+    <main class="mainContent">
+      <section class="impact">
+        <div class="impact-box">
+          <header class="impact-header">
+            <h2>O que é desinformação?</h2>
+          </header>
+          <main class="impact-main">
+            <p class="impact-description">
+              Pense nela como um primo distante da mentira. Mas a desinformação
+              é mais perigosa, pois é elaborada com a intenção de causar danos,
+              seja para influenciar eleições, incitar o ódio, promover produtos
+              de forma enganosa ou simplesmente gerar caos e confusão.
+            </p>
+            <a>Ver mais...</a>
+          </main>
+        </div>
+
+        <div class="impact-box">
+          <header class="impact-header">
+            <h2>Como combater?</h2>
+          </header>
+          <main class="impact-main">
+            <p class="impact-description">
+              Diga adeus às fake news e olá à informação confiável. Com Mahitis,
+              você tem acesso à verdade, checada e confirmada por fontes
+              confiáveis. Segurança e clareza para navegar no mundo digital.
+            </p>
+            <p class="impact-description">
+              Segurança e clareza para navegar no mundo digital.
+            </p>
+            <div class="impact-hashtag">
+              <span>#Mahitis</span>
+              <span>#DesinformaçãoNuncaMais</span>
+              <span>#InformaçãoConfiável</span>
+              <span>#SegurançaDigital</span>
+            </div>
+          </main>
+        </div>
+      </section>
+      <aside class="chatbot">
+        <div class="chatbot-content"></div>
+        <div class="chatbot-prompt">
+          <textarea
+            class="chatbot-input"
+            placeholder="Olá. No que posso te ajudar?"
+          ></textarea>
+          <button class="chatbot-send" type="button">Enviar</button>
+        </div>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Mahitis. Todos os direitos reservados.</p>
+    </footer>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script type="module" src="./javascript/chat.js"></script>
+  </body>
+</html>
